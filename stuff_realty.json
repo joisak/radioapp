@@ -1,0 +1,8 @@
+                  "  #php wp-cli.phar plugin install https://downloads.wordpress.org/plugin/taxonomy-terms-order.1.4.8.zip \n",
+                  "  #php wp-cli.phar plugin install https://downloads.wordpress.org/plugin/duplicator.1.1.12.zip \n",
+                  "  #php wp-cli.phar plugin install https://downloads.wordpress.org/plugin/list-category-posts.0.69.zip \n",
+                  "  #php wp-cli.phar plugin install https://downloads.wordpress.org/plugin/php-code-widget.2.3.zip \n",
+                  "  #php wp-cli.phar plugin install https://downloads.wordpress.org/plugin/post-types-order.1.8.9.2.zip \n",
+                  "  #php wp-cli.phar plugin install https://downloads.wordpress.org/plugin/our-team-enhanced.3.0.0.zip \n",
+                  "  #php wp-cli.phar plugin install https://downloads.wordpress.org/plugin/wordpress-seo.3.3.4.zip \n",
+                  "  #php wp-cli.phar plugin install https://downloads.wordpress.org/plugin/duplicate-post.2.6.zip \n",

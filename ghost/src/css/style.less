@@ -1,0 +1,154 @@
+.wrapper{
+	#platform{
+		height: 600px;
+		width: 600px;
+		background-color: #d4e7fd;
+		margin: 0 auto;
+		border-radius: 4px;
+		#ghost{
+			position: relative;
+		    top: 80px;
+		    width: 200px;
+		    height: 350px;
+		    background-color: white;
+		    left: 140px;
+		    border-radius: 86px 86px 46px 84px;
+		    .eye{
+	    	    width: 30px;
+			    height: 30px;
+			    background-color: black;
+					width: 30px;
+				    height: 30px;
+				    background-color: black;
+				    position: relative;
+				    top: 84px;
+				    left: 44px;
+				    border-radius: 20px;
+				    .eye-light{
+				    	width: 8px;
+				    	height: 4px;
+				    	background-color: #fff;    
+				    	width: 8px;
+					    height: 8px;
+					    background-color: #fff;
+					    position: relative;
+					    top: 8px;
+					    left: 6px;
+					    border-radius: 5px;
+				    }
+		    }
+		    .eye2{
+		    	left: 122px;
+    			top: 54px;
+		    }
+		    .eye2-blink{
+		        left: 0px;
+			    top: -9px;
+			    background: #fff;
+			    height: 32px;
+    			width: 30px;
+			    
+		    }
+		}
+		#ghost-2{
+			position: relative;
+		    top: 80px;
+		    width: 200px;
+		    height: 350px;
+		    background-color: white;
+		    left: 40px;
+		    border-radius: 86px 86px 46px 84px;
+		    .eye{
+	    	    width: 30px;
+			    height: 30px;
+			    background-color: black;
+					width: 30px;
+				    height: 30px;
+				    background-color: black;
+				    position: relative;
+				    top: 84px;
+				    left: 44px;
+				    border-radius: 20px;
+				    .eye-light{
+				    	width: 8px;
+				    	height: 4px;
+				    	background-color: #fff;    
+				    	width: 8px;
+					    height: 8px;
+					    background-color: #fff;
+					    position: relative;
+					    top: 8px;
+					    left: 6px;
+					    border-radius: 5px;
+				    }
+		    }
+		    .eye2{
+		    	left: 122px;
+    			top: 54px;
+		    }
+		}
+		#ghost-3{
+		    position: relative;
+		    top: -480px;
+		    width: 200px;
+		    height: 350px;
+		    background-color: white;
+		    left: -54px;
+		    border-radius: 86px 86px 46px 84px;
+		    float: right;
+		    .eye{
+	    	    width: 30px;
+			    height: 30px;
+			    background-color: black;
+					width: 30px;
+				    height: 30px;
+				    background-color: black;
+				    position: relative;
+				    top: 84px;
+				    left: 44px;
+				    border-radius: 20px;
+				    .eye-light{
+				    	width: 8px;
+				    	height: 4px;
+				    	background-color: #fff;    
+				    	width: 8px;
+					    height: 8px;
+					    background-color: #fff;
+					    position: relative;
+					    top: 8px;
+					    left: 6px;
+					    border-radius: 5px;
+				    }
+		    }
+		    .eye2{
+		    	left: 122px;
+    			top: 54px;
+		    }
+		}
+	}
+}
+
+@keyframes ghost-move{
+    0%   {background-color: white; left:140px; top:80px;}
+    25%  {background-color: #d7e4f2; left:140px; top:120px;}
+    50%  {background-color: white; left:80px; top:160px;}
+    75%  {background-color: #acb7c4; left:250px; top:200px;}
+    100% {background-color: white; left:140px; top:80px;}
+}
+@keyframes blink{
+	0% {background-color: black;}
+	100%{background-color: #fff; display:none;}
+}
+#ghost{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: ghost-move;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+.eye2-blink{
+	animation-name:blink;
+	animation-duration:5s;
+}
